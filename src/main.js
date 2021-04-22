@@ -3,6 +3,15 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+import axios from 'axios'
+import moment from 'moment'
+
+Vue.use(MintUI)
+Vue.prototype.moment=moment
+Vue.prototype.axios=axios
+axios.defaults.baseURL='http://127.0.0.1:3000/'
 Vue.config.productionTip = false
 
 new Vue({

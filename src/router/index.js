@@ -1,12 +1,66 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+// import Login from '../views/Login.vue'
+import Register from '../views/Register.vue'
+import Shouye from '../tasting/Shouye.vue'
+import isLogin from '../tasting/isLogin.vue'
+import shucheng from '../tasting/shucheng.vue'
+import fenlei from '../tasting/fenlei.vue'
+import wode from '../tasting/wode.vue'
+import erlou from '../tasting/erlou.vue'
+import details from '../tasting/details.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/details',
+    name: ' details',
+    component: details
+  },
+  {
+    path: '/erlou',
+    name: 'erlou',
+    component: erlou
+  },
+  {
+    path: '/shucheng',
+    name: ' shucheng',
+    component: shucheng
+  },
+  {
+    path: '/wode',
+    name: ' wode',
+    component: wode
+  },
+  {
+    path: '/fenlei',
+    name: ' fenlei',
+    component: fenlei
+  },
+  {
+    path: '/shouye',
+    name: 'Shouye',
+    component: Shouye
+  },
+  {
     path: '/',
+    name: 'isLogin',
+    component: isLogin
+  },
+  // {
+  //   path: '/login',
+  //   name: 'Login',
+  //   component: Login
+  // },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home
   },
