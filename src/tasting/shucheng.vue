@@ -1,12 +1,12 @@
 <template>
   <div class="shucheng">
     <!-- <mt-header title="书城"></mt-header> -->
-    <mt-navbar v-model="selected" class="tit">
+    <mt-navbar v-model="selected" class="tit" fixed>
       <mt-tab-item id="1" class="font_title">推荐</mt-tab-item>
       <mt-tab-item id="2" class="font_title">女生</mt-tab-item>
       <mt-tab-item id="3" class="font_title">男生</mt-tab-item>
     </mt-navbar>
-    <mt-tab-container v-model="selected" :swipeable="true">
+    <mt-tab-container style="margin-top:46px" v-model="selected" :swipeable="true">
       <mt-tab-container-item id="1">
         <!-- <h1>推荐模块</h1> -->
         <!-- 轮播图 -->
