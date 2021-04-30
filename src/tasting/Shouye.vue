@@ -202,7 +202,7 @@ export default {
   height: 66px;
   color: #fff;
   font-size: 24px;
-  background-color:#febf85;
+  background-color:#5a4411;
 }
 /* 标题 */
  .mint-header-title {

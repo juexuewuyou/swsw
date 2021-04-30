@@ -66,7 +66,9 @@
   border-radius: 30px;
 }
 .reg .btn {
-  background-image: linear-gradient(to right, #e5b6a0, #febf85);
+  background:rgb(251, 251, 251);
+    border:1px solid #8f8f8f;
+    color:#8f8f8f
 }
 .reg .logo {
   margin: 0 auto;

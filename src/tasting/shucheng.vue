@@ -125,7 +125,7 @@ export default {
       this.axios
         .get("/shucheng", {
           params: {
-            sid: sid,
+            sid: sid
           },
         })
         .then((res) => {
@@ -134,6 +134,7 @@ export default {
           // })
         });
     },
+
   },
 
   watch: {
